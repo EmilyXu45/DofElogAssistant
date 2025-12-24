@@ -39,3 +39,15 @@ def get_logs():
     rows = c.fetchall()
     conn.close()
     return rows
+
+def delete_log(log_id):
+    conn = sqlite3.connect("logs.db")
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "DELETE FROM logs WHERE id = ?",
+        (log_id,)
+    )
+
+    conn.commit()
+    conn.close()
