@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from database import create_tables, save_log, get_logs
+from database import create_tables, save_log, get_logs, delete_log
 from logic import generate_reflection
 
 create_tables()
@@ -71,7 +71,30 @@ if logs:
             "Challenges", "Reflection", "Date"
         ]
     )
+if logs:
+    st.divider()
+    st.subheader("🗑️ Delete a Log")
 
+    log_ids = df["ID"].tolist()
+
+    selected_log_id = st.selectbox(
+        "Select a log to delete",
+        log_ids,
+        key="delete_log_main"
+    )
+
+    confirm = st.checkbox(
+        "I understand this action cannot be undone",
+        key="confirm_delete_main"
+    )
+
+    if st.button("Delete selected log"):
+        if confirm:
+            delete_log(selected_log_id)
+            st.success("Log deleted successfully.")
+            st.experimental_rerun()
+        else:
+            st.warning("Please confirm before deleting.")
 
     st.dataframe(df)
 

@@ -1,6 +1,6 @@
 def generate_reflection(activity, skills, challenges, style):
 
-    if style == "Structured (What / So what / Now what)":
+    if style == "Detailed & Structured":
         return (
             f"This week, I took part in {activity}. "
             f"This helped me develop {skills}. "
