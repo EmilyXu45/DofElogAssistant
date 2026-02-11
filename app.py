@@ -16,7 +16,7 @@ st.header("Weekly Log Entry")
 week = st.number_input("Week number", min_value=1, max_value=52)
 activity = st.text_input("What activity did you do?")
 skills = st.text_input("What skills did you develop?")
-challenges = st.text_area("What challenges did you face?")
+challenges = st.text_area("What are some of the challenges that you have faced?")
 
 
 
