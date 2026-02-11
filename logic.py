@@ -2,10 +2,10 @@ def generate_reflection(activity, skills, challenges, style):
 
     if style == "Detailed & Structured":
         return (
-            f"This week, I took part in {activity}. "
-            f"This helped me develop {skills}. "
-            f"I faced challenges such as {challenges}, "
-            f"which taught me how to manage difficulties and improve. "
+            f"This week, to complete my DofE award, I took part in {activity}. "
+            f"This helped me develop {skills}, which I struggled with previously. "
+            f"In this week's session, I faced challenges such as {challenges}, "
+            f"this taught me how to manage difficulties and improve. "
             f"Next time, I will apply what I have learnt to continue developing."
         )
 
