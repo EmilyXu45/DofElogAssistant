@@ -1,6 +1,7 @@
 # Project Description:
 
-The DofE Log Assistant website is designed to help students manage their logs and organise everything in one place.
-Often students struggle to write the weekly logs as they perceive it to be a tedious task. With the following features, this website makes it easier not only for students to stay organised, but it also helps them to autogenerate a log, which save time significantly.
+Streamlining the Duke of Edinburgh’s Award experience by turning "tedious" into "effortless."
+
+The DofE Log Assistant is a web-based platform designed to help students manage their progress and organize their requirements in one centralized location. Based on my own experiences, I understand that writing weekly logs can feel like a chore, often leading to a backlog of unrecorded entries. This tool eliminates that friction with automated organization and intelligent log generation.
 
 ## Features:
