@@ -26,3 +26,8 @@ Writing reports for dozens of students is tedious for assessors. This tool helps
 * **Efficient Review:** Giving assessors a clear "head start" on what to write in the final report.
 
 ---
+
+## Future Features (Currently Exploring)
+
+* **Personalized AI Insights:** Using advanced AI to provide even more tailored prompts and progress summaries.
+* **Smart Reminders:** Integrated weekly notifications to ensure you never miss a log entry
